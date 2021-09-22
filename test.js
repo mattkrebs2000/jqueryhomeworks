@@ -21,7 +21,7 @@ console.log("6.",today.toDateString());
 //         embedded javascript
 //notice: the logic of any javascript can be written without errors in the terminal but to get output showing in the terminal you need to use a console.log().
 
-const rate = 5;
+const rate = -5;
 
 if (isNaN(rate)) {
   console.log("You did not provide a number for the rate.");

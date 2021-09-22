@@ -38,15 +38,15 @@
         <div id="data"></div>
     </main>
     <script>
-        const $ = selector => document.querySelector(selector);
+        const $force = selector => document.querySelector(selector);
  
         document.addEventListener("DOMContentLoaded", () => {
             
-            $("#join_list").addEventListener("click", evt => {
+            $force("#join_list").addEventListener("click", evt => {
                 // get values user entered in textboxes
-                const email1 = $("#email_1").value;
-                const email2 = $("#email_2").value;
-                const firstName = $("#first_name").value;
+                const email1 = $force("#email_1").value;
+                const email2 = $force("#email_2").value;
+                const firstName = $force("#first_name").value;
             
                 // create an error message and set it to an empty string
                 let errorMessage = "";
